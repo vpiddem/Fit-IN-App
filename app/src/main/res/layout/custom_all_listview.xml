@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/listView_categoryImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="CategoryIcon"
+            android:scaleType="center"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/listView_categoryTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="Title Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold"
+            android:minWidth="200dp"
+            android:textColor="@color/black"
+            android:nestedScrollingEnabled="false" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right">
+
+    <TextView
+        android:id="@+id/listView_PercentageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage Text"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/listView_FavoriteImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="CategoryIcon" />
+    <ImageView
+        android:id="@+id/listView_CheckInImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="CategoryIcon" />
+</LinearLayout>
+
+</LinearLayout>

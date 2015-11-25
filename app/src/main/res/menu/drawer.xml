@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:title="CheckIn" android:id="@+id/navigation_item_2" android:icon="@drawable/composea" ></item>
+            <item android:title="Map"  android:icon="@drawable/inbox" ></item>
+            <item android:title="Drafts" android:icon="@drawable/draft"></item>
+
+    <group android:id="@+id/shitss">
+        <item android:title="Others">
+            <menu>
+                <item android:title="Settings"
+                    android:icon="@drawable/settings"/>
+                <item android:title="Help"
+                    android:icon="@drawable/help"/>
+            </menu>
+        </item>
+    </group>
+
+
+
+
+
+</menu>
